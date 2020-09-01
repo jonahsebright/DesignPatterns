@@ -1,3 +1,5 @@
+package structure;
+
 public class Client {
     private Behaviour behaviour;
 
