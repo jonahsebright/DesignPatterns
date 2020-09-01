@@ -1,3 +1,5 @@
+package structure;
+
 public class ConcreteObserver implements Observer{
 
     @Override
