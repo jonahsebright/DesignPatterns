@@ -1,0 +1,2 @@
+The structure.Decorator Pattern attaches additional responsabilities to an object dynamically.
+Decorators provide a flexible alternative to subclassing or extending functionality.
