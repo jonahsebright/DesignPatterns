@@ -1,6 +1,6 @@
 package example;
 
-public class Caramel extends AddOnDecorator {
+public class Caramel extends FlavourDecorator {
     public Caramel(Beverage beverage) {
         super(beverage);
     }
@@ -8,11 +8,11 @@ public class Caramel extends AddOnDecorator {
 
     @Override
     public double cost() {
-        return beverage.cost() + 1;
+        return beverage.cost() + 2;
     }
 
     @Override
     public String description() {
-        return beverage.description();
+        return beverage.description() + " with caramel";
     }
 }
